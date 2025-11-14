@@ -48,7 +48,7 @@ ___
 For this portion, we'll test out our deck by playing a simple game of cut. Each game should run in a file called *Main.java*, and run like so:
 1. A deck of 52 cards is shuffled.
 2. The first player chooses a position from the first card to the *second to last card* to 'cut' the deck. They retain that card.
-3. The second player chooses a position from the place the first player cut to the *end of the deck.* They retain that card.
+3. The computer chooses a position from the place the first player cut to the *end of the deck.* They retain that card.
 4. Both players compare their chosen cards according to the following scoring guide: 
 	1. The highest value of the card wins (In this game, we'll consider an Ace as a 1)
 	2. If the values are the same, the suit priority wins: Spades > Hearts > Clubs > Diamonds
